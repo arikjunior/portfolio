@@ -227,6 +227,34 @@ html {
   }
 }
 
+.whatsapp {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  font-size: 18px;
+  padding: 12px 12px 12px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid #25d366;
+  transition: all 0.3s ease;
+}
+
+.whatsapp i {
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+  background: none;
+}
+
+.or {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
 .home2 .home-content .btnhire {
   display: inline-block;
   background: #887528;

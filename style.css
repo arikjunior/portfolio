@@ -212,7 +212,7 @@ html {
 @keyframes animation2 {
   0% {
     /* opacity: 0; */
-    font-style: italic;
+    /* font-style: italic; */
   }
 
   50% {
@@ -694,10 +694,25 @@ section .title {
   font-weight: 500;
   color: white;
   margin: 10px 0 7px 0;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card2:hover .text2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  margin: 10px 0 7px 0;
+  transform: scale(1.05);
 }
 
 .projects .carousel .card2 p {
   color: white;
+  transition: all 0.3s ease;
+}
+
+.projects .carousel .card2:hover p {
+  color: white;
+  transform: scale(1.05);
 }
 
 .projects .carousel .card2 img {
@@ -707,10 +722,12 @@ section .title {
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #887528;
+  transition: all 0.3s ease;
 }
 
 .projects .carousel .card2:hover img {
   border-color: white;
+  transform: scale(1.05);
 }
 
 /*  */

@@ -701,6 +701,7 @@ section .title {
 }
 
 .projects .carousel .card2 img {
+  margin: 0 auto;
   height: 150px;
   width: 150px;
   object-fit: cover;

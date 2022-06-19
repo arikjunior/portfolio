@@ -211,7 +211,7 @@ html {
 
 @keyframes animation2 {
   0% {
-    opacity: 0;
+    /* opacity: 0; */
     font-style: italic;
   }
 
@@ -221,7 +221,7 @@ html {
   }
 
   100% {
-    opacity: 1;
+    /* opacity: 1; */
     text-shadow: red -8px 0, cyan 8px 0;
     font-style: italic;
   }
